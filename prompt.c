@@ -2,5 +2,6 @@
 
 void prompt (void)
 {
-	printf("#cisfun$ ");
+	char prompt[] = "#cisfun$ ";
+	write(STDOUT_FILENO, prompt, sizeof(prompt) - 1);
 }

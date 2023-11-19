@@ -17,7 +17,7 @@ int main(int argc, char **argv)
 
 		if (bytes_read == -1)
 			{
-				printf("exiting\n");
+				fprintf(stdout, "exiting\n");
 				return (-1);
 			}
 		get_path(input);
